@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.min.css">
+</head>
+
+<body>
+ <div class="container">
+    <h1>meal finder</h1>
+    <div class="flex">
+        <form class="flex" id="submit">
+            <input type="text" id="search" placeholder="search for meals">
+            <button class="search-btn" type="submit">
+              <i class="fas fa-search"></i>
+              <p></p>
+            </button>
+        </form>
+    </div>
+    <div id="result-heading"></div>
+    <div class="meals" id="meals"></div>
+    <div id="single-meal" class="single-meal"> </div>
+ </div>
+
+
+    <script src="meal.js"></script>
+</body>
+</html>
